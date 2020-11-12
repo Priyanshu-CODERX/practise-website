@@ -5,6 +5,7 @@
     color: white;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 .header-main{
@@ -16,10 +17,11 @@
 
 .image-profile{
     border: 5px solid gold;
-    border-radius: 50%;
+    border-radius: 30%;
     height: 400px;
     width: 400px;
     transition: all 1s ease;
+    margin: 50px;
 }
 
 .image-profile:hover{
@@ -51,7 +53,7 @@
 @media screen and (max-width: 435px) {
     .image-profile{
         border: 5px solid gold;
-        border-radius: 50%;
+        border-radius: 30%;
         height: 300px;
         width: 300px;
         transition: all 1s ease;
